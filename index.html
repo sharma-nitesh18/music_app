@@ -86,21 +86,22 @@
 		</section>
             <footer>
                  <div class="controls">
-                    <div class="player-buttons">
-                       <i class="fa fa-random disabled " aria-hidden="true"></i>
-                        <i class="fa fa-step-backward bwd" aria-hidden="true"></i>
-                        
-                        <i class="fa fa-play clickable play-icon" aria-hidden="true"></i>
-                        <i class="fa fa-step-forward fwd" aria-hidden="true"></i>
-                        <i class="fa fa-repeat disabled" aria-hidden="true"></i>
-                         
-                    </div>
+                     <div class="player-buttons">
+					  <i class="fa fa-random clickable disabled" aria-hidden="true"></i>
+					  <i class="fa fa-step-backward clickable" aria-hidden="true"></i>
+					  <i class="fa fa-play clickable play-icon" aria-hidden="true"></i>
+					  <i class="fa fa-step-forward clickable" aria-hidden="true"></i>
+					  <i class="fa fa-repeat disabled clickable" aria-hidden="true"></i>
+					
+					</div>
                     <div class="progress-wrapper">
                         <span class="time-elapsed"> </span>
                         <div class="player-progress">
                             <div class="progress-filled"> </div>
                         </div>
                         <span class="song-duration"></span>
+						 <i class="fa fa-volume-up volumeicon" aria-hidden="true"></i>
+						 <input id="slider" type="range" min="0" max="100" value="100" step="4">
                     </div>
                 </div>
             </footer>
