@@ -23,7 +23,10 @@ h1 {
     height: 100%;
     width: 100%;
     background-color: #BBB;
+	background:url("img/back.jpg");
+	
 }
+
 
 .welcome-screen {
     height: 100%;
@@ -32,6 +35,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+	
 }
 
 .main {

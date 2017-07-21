@@ -2,7 +2,7 @@ html {
   font-size: 10px;
   background: url(img/drum.jpg) bottom center;
 /*    background-color: black;*/
-  background-size: cover;
+  background-size:cover;
 }
 body,html {
   margin: 0;
